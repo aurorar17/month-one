@@ -1,0 +1,95 @@
+.top-line {
+    height: 10px;
+    /* Altezza della riga colorata */
+    background: linear-gradient(to right, #1ba640 50%, #2640e5 50%);
+    /* Gradiente lineare con due colori */
+    width: 100%;
+    /* Larghezza dell'elemento */
+}
+
+nav {
+    background-color: whitesmoke;
+    display: flex;
+    margin-bottom: 1px;
+}
+
+nav ul,
+nav ul li,
+.spacer {
+    padding-top: 25px;
+    list-style-type: none;
+    display: inline;
+    font-size: 23px;
+    vertical-align: middle;
+    padding-right: 17px;
+}
+
+a {
+    text-decoration: none;
+    /* Rimuove la linea sottostante dai link */
+    color: black;
+}
+
+/* Cambia colore del testo del link al passaggio del mouse */
+nav ul li a:hover {
+    background-color: #ece5e5bc;
+    /* Colore di sfondo al passaggio del mouse */
+    color: #2640e5;
+    /* Colore del testo al passaggio del mouse */
+    border-radius: 3px;
+    /* Aggiunge angoli arrotondati al fondo */
+}
+
+.nav-images {
+    height: auto;
+    width: 5px;
+}
+
+.main-image {
+    width: 100%;
+    /* Larghezza dell'immagine a 100% del contenitore */
+    height: auto;
+    /* Mantiene le proporzioni dell'immagine */
+    display: auto;
+    /* Rimuove eventuali spazi bianchi sotto l'immagine */
+}
+
+.search-bar {
+    position: absolute;
+    /* Posizionamento assoluto per sovrapporre la barra di ricerca sull'immagine */
+    top: 50%;
+    /* Posiziona verticalmente al centro */
+    left: 50%;
+    /* Posiziona orizzontalmente al centro */
+}
+
+.search-bar button {
+    padding: 20px 40px;
+    /* Spazio interno al pulsante */
+    border: #ece5e5bc;
+    background-color: #ffffff;
+    /* Colore di sfondo del pulsante */
+    color: white;
+    /* Colore del testo del pulsante */
+    margin-left: 0%;
+}
+
+.search-bar button:hover {
+    background-color: #ece5e5bc;
+    /* Colore di sfondo al passaggio del mouse */
+}
+
+.search-bar input[type="text"] {
+    width: 70%;
+    /* Larghezza dell'input */
+    padding: 15px;
+    /* Spazio interno all'input */
+    border: 1px solid #ccc;
+    /* Bordo dell'input */
+    font-size: 24px;
+    /* Dimensione del testo dell'input */
+    box-sizing: border-box;
+    /* Include padding e bordo nel calcolo della larghezza */
+    position: relative;
+    margin-right: 0;
+}
